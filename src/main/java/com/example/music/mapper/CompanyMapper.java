@@ -1,6 +1,5 @@
 package com.example.music.mapper;
 
-import com.example.music.entity.Album;
 import com.example.music.entity.Company;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
