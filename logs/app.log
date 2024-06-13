@@ -2048,3 +2048,271 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 2024-06-13 19:19:04 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2024-06-13 19:19:04 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
 2024-06-13 19:19:04 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-06-13 19:40:57 [main] INFO  com.example.music.MusicApplication - Starting MusicApplication using Java 17.0.6 with PID 25776 (D:\college\2nd_down\数据库\music\build\classes\java\main started by HUOYOUXINGLAOPO in D:\college\2nd_down\数据库\music)
+2024-06-13 19:40:57 [main] INFO  com.example.music.MusicApplication - Starting MusicApplication using Java 17.0.6 with PID 25776 (D:\college\2nd_down\数据库\music\build\classes\java\main started by HUOYOUXINGLAOPO in D:\college\2nd_down\数据库\music)
+2024-06-13 19:40:57 [main] INFO  com.example.music.MusicApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-13 19:40:57 [main] INFO  com.example.music.MusicApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-13 19:40:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-13 19:40:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-13 19:40:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 JPA repository interfaces.
+2024-06-13 19:40:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 JPA repository interfaces.
+2024-06-13 19:40:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-06-13 19:40:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-06-13 19:40:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-13 19:40:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-13 19:40:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-13 19:40:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-13 19:40:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-13 19:40:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-13 19:40:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-13 19:40:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-13 19:40:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1437 ms
+2024-06-13 19:40:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1437 ms
+2024-06-13 19:40:58 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-13 19:40:58 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-13 19:40:58 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-13 19:40:58 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-13 19:40:58 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-13 19:40:58 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-13 19:40:59 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-13 19:40:59 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-13 19:40:59 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-06-13 19:40:59 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-06-13 19:40:59 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42b43a6
+2024-06-13 19:40:59 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42b43a6
+2024-06-13 19:40:59 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-06-13 19:40:59 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-06-13 19:40:59 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-13 19:40:59 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-13 19:40:59 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-13 19:40:59 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.AlbumMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.AlbumMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.BandMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.BandMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.music.entity.Bandmember".
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.music.entity.Bandmember".
+2024-06-13 19:41:00 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.example.music.entity.Bandmember ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-06-13 19:41:00 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.example.music.entity.Bandmember ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.BandmemberMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.BandmemberMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.CompanyMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.CompanyMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.ComposerMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.ComposerMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.LyricistMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.LyricistMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.PerformerMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.PerformerMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.SingerMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.SingerMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.music.entity.Singsong".
+2024-06-13 19:41:00 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.example.music.entity.Singsong ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.music.entity.Singsong".
+2024-06-13 19:41:00 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.example.music.entity.Singsong ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.SingsongMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.SingsongMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.SongMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.SongMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:41:00 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-13 19:41:00 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-13 19:41:01 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-13 19:41:01 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-13 19:41:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-06-13 19:41:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-06-13 19:41:01 [main] INFO  com.example.music.MusicApplication - Started MusicApplication in 4.626 seconds (process running for 5.068)
+2024-06-13 19:41:01 [main] INFO  com.example.music.MusicApplication - Started MusicApplication in 4.626 seconds (process running for 5.068)
+2024-06-13 19:41:04 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-13 19:41:04 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-13 19:41:04 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-13 19:41:04 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-13 19:41:04 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-13 19:41:04 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-13 19:42:30 [main] INFO  com.example.music.MusicApplication - Starting MusicApplication using Java 17.0.6 with PID 30268 (D:\college\2nd_down\数据库\music\build\classes\java\main started by HUOYOUXINGLAOPO in D:\college\2nd_down\数据库\music)
+2024-06-13 19:42:30 [main] INFO  com.example.music.MusicApplication - Starting MusicApplication using Java 17.0.6 with PID 30268 (D:\college\2nd_down\数据库\music\build\classes\java\main started by HUOYOUXINGLAOPO in D:\college\2nd_down\数据库\music)
+2024-06-13 19:42:30 [main] INFO  com.example.music.MusicApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-13 19:42:30 [main] INFO  com.example.music.MusicApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-13 19:42:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-13 19:42:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-13 19:42:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 JPA repository interfaces.
+2024-06-13 19:42:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 JPA repository interfaces.
+2024-06-13 19:42:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-06-13 19:42:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-06-13 19:42:31 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-13 19:42:31 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-13 19:42:31 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-13 19:42:31 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-13 19:42:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-13 19:42:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-13 19:42:31 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-13 19:42:31 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-13 19:42:31 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1404 ms
+2024-06-13 19:42:31 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1404 ms
+2024-06-13 19:42:31 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-13 19:42:31 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-13 19:42:31 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-13 19:42:31 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-13 19:42:31 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-13 19:42:31 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-13 19:42:32 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-13 19:42:32 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-13 19:42:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-06-13 19:42:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-06-13 19:42:32 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70697478
+2024-06-13 19:42:32 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70697478
+2024-06-13 19:42:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-06-13 19:42:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-06-13 19:42:33 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-13 19:42:33 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-13 19:42:33 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-13 19:42:33 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.AlbumMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.AlbumMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.BandMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.BandMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.music.entity.Bandmember".
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.music.entity.Bandmember".
+2024-06-13 19:42:33 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.example.music.entity.Bandmember ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-06-13 19:42:33 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.example.music.entity.Bandmember ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.BandmemberMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.BandmemberMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.CompanyMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.CompanyMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.ComposerMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.ComposerMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.LyricistMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.LyricistMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.PerformerMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.PerformerMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.SingerMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.SingerMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.music.entity.Singsong".
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.music.entity.Singsong".
+2024-06-13 19:42:33 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.example.music.entity.Singsong ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-06-13 19:42:33 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.example.music.entity.Singsong ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.SingsongMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.SingsongMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.SongMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.SongMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 19:42:33 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-13 19:42:33 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-13 19:42:34 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-13 19:42:34 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-13 19:42:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-06-13 19:42:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-06-13 19:42:34 [main] INFO  com.example.music.MusicApplication - Started MusicApplication in 4.659 seconds (process running for 5.121)
+2024-06-13 19:42:34 [main] INFO  com.example.music.MusicApplication - Started MusicApplication in 4.659 seconds (process running for 5.121)
+2024-06-13 19:42:36 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-13 19:42:36 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-13 19:42:36 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-13 19:42:36 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-13 19:42:36 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2024-06-13 19:42:36 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2024-06-13 19:45:38 [http-nio-8080-exec-9] INFO  c.e.music.controller.AlbumController - album/index
+2024-06-13 19:45:38 [http-nio-8080-exec-9] INFO  c.e.music.controller.AlbumController - album/index
+2024-06-13 19:54:49 [main] INFO  com.example.music.MusicApplication - Starting MusicApplication using Java 21 with PID 10812 (D:\college\2nd_down\鏁版嵁搴揬music\build\classes\java\main started by HUOYOUXINGLAOPO in D:\college\2nd_down\鏁版嵁搴揬music)
+2024-06-13 19:54:49 [main] INFO  com.example.music.MusicApplication - Starting MusicApplication using Java 21 with PID 10812 (D:\college\2nd_down\鏁版嵁搴揬music\build\classes\java\main started by HUOYOUXINGLAOPO in D:\college\2nd_down\鏁版嵁搴揬music)
+2024-06-13 19:54:49 [main] INFO  com.example.music.MusicApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-13 19:54:49 [main] INFO  com.example.music.MusicApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-13 19:54:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-13 19:54:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-13 19:54:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 173 ms. Found 0 JPA repository interfaces.
+2024-06-13 19:54:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 173 ms. Found 0 JPA repository interfaces.
+2024-06-13 19:54:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-06-13 19:54:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-06-13 19:54:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-13 19:54:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-13 19:54:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-13 19:54:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-13 19:54:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-13 19:54:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-13 19:54:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-13 19:54:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-13 19:54:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 9144 ms
+2024-06-13 19:54:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 9144 ms
+2024-06-13 19:54:59 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-13 19:54:59 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-13 19:55:00 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-13 19:55:00 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-13 19:55:00 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-13 19:55:00 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-13 20:04:56 [main] INFO  com.example.music.MusicApplication - Starting MusicApplication using Java 21 with PID 25800 (D:\college\2nd_down\鏁版嵁搴揬music\build\classes\java\main started by HUOYOUXINGLAOPO in D:\college\2nd_down\鏁版嵁搴揬music)
+2024-06-13 20:04:56 [main] INFO  com.example.music.MusicApplication - Starting MusicApplication using Java 21 with PID 25800 (D:\college\2nd_down\鏁版嵁搴揬music\build\classes\java\main started by HUOYOUXINGLAOPO in D:\college\2nd_down\鏁版嵁搴揬music)
+2024-06-13 20:04:56 [main] INFO  com.example.music.MusicApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-13 20:04:56 [main] INFO  com.example.music.MusicApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-13 20:04:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-13 20:04:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-13 20:04:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 0 JPA repository interfaces.
+2024-06-13 20:04:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 0 JPA repository interfaces.
+2024-06-13 20:04:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-06-13 20:04:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-06-13 20:04:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-13 20:04:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-13 20:04:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-13 20:04:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-13 20:04:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-13 20:04:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-13 20:04:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-13 20:04:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-13 20:04:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1390 ms
+2024-06-13 20:04:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1390 ms
+2024-06-13 20:04:58 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-13 20:04:58 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-13 20:04:58 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-13 20:04:58 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-13 20:04:58 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-13 20:04:58 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-13 20:04:58 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-13 20:04:58 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-13 20:04:58 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-06-13 20:04:58 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-06-13 20:04:59 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1851c7d2
+2024-06-13 20:04:59 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1851c7d2
+2024-06-13 20:04:59 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-06-13 20:04:59 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-06-13 20:04:59 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-13 20:04:59 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-13 20:04:59 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-13 20:04:59 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-13 20:04:59 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.AlbumMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:04:59 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.AlbumMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:04:59 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.BandMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:04:59 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.BandMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.music.entity.Bandmember".
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.music.entity.Bandmember".
+2024-06-13 20:05:00 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.example.music.entity.Bandmember ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-06-13 20:05:00 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.example.music.entity.Bandmember ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.BandmemberMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.BandmemberMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.CompanyMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.CompanyMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.ComposerMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.ComposerMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.LyricistMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.LyricistMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.PerformerMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.PerformerMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.SingerMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.SingerMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.music.entity.Singsong".
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.music.entity.Singsong".
+2024-06-13 20:05:00 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.example.music.entity.Singsong ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-06-13 20:05:00 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.example.music.entity.Singsong ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.SingsongMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.SingsongMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.SongMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:05:00 [main] WARN  c.b.m.core.injector.methods.Delete - [com.example.music.mapper.SongMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-06-13 20:05:00 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-13 20:05:00 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-13 20:05:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-13 20:05:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-13 20:05:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-06-13 20:05:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-06-13 20:05:00 [main] INFO  com.example.music.MusicApplication - Started MusicApplication in 4.508 seconds (process running for 4.944)
+2024-06-13 20:05:00 [main] INFO  com.example.music.MusicApplication - Started MusicApplication in 4.508 seconds (process running for 4.944)
+2024-06-13 20:05:39 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-13 20:05:39 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-13 20:05:39 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-13 20:05:39 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-13 20:05:39 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-13 20:05:39 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
