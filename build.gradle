@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.3.0'
+    id 'io.spring.dependency-management' version '1.1.5'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    sourceCompatibility = '17'
+    targetCompatibility = '17'
+}
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'
+
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    implementation 'mysql:mysql-connector-java:8.0.28'  // 连接mysql数据库
+
+    // 以下三个都是mybatis-plus代码生成所需的库
+    implementation 'com.baomidou:mybatis-plus-generator:3.5.1'  // 官网3.5.6版本使用困难，使用3.5.1可以按照官网示例生成代码
+    implementation 'org.freemarker:freemarker:2.3.31'   // 使用Freemarker引擎模板，默认的是Velocity引擎模板
+    implementation 'com.baomidou:mybatis-plus-boot-starter:3.5.5'   // 这个版本不报错，其他版本有报错
+
+    // Swagger dependencies
+    implementation 'io.springfox:springfox-boot-starter:3.0.0'
+    implementation 'io.springfox:springfox-swagger-ui:3.0.0'
+
+    // 解决Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
+    // mybatis-spring 包版本低，不支持spring boot3.2.
+    implementation 'org.mybatis:mybatis-spring:3.0.3'
+
+    // 日志
+    implementation 'org.springframework.boot:spring-boot-starter-logging:2.5.15'
+}

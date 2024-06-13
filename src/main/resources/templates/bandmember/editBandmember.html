@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Bandmember Record</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, button {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Edit Bandmember Record</h1>
+    <form action="/bandmember/edit" th:object="${bandmember}" method="post">
+        <input type="hidden" id="bandId" name="bandId" th:field="*{bandId}">
+
+        <input type="hidden" id="singerId" name="singerId" th:field="*{singerId}">
+
+        <label for="new_bandId">bandId</label>
+        <input type="number" id="new_bandId" name="new_bandId" th:value="*{bandId}">
+
+        <label for="new_singerId">singerId</label>
+        <input type="number" id="new_singerId" name="new_singerId" th:value="*{singerId}">
+
+        <button type="submit">Edit Bandmember Record</button>
+    </form>
+</div>
+</body>
+</html>

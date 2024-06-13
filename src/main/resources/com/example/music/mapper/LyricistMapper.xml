@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.music.mapper.LyricistMapper">
+    <select id="getAll" resultType="com.example.music.entity.Lyricist">
+        SELECT id, name, gender FROM lyricist;
+    </select>
+    <delete id="delete">
+        DELETE FROM lyricist WHERE id=#{id};
+    </delete>
+</mapper>

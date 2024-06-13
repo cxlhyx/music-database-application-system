@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Singsong Record</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, button {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Edit Singsong Record</h1>
+    <form action="/singsong/edit" th:object="${singsong}" method="post">
+        <input type="hidden" id="songId" name="songId" th:field="*{songId}">
+
+        <input type="hidden" id="performerId" name="performerId" th:field="*{performerId}">
+
+        <label for="new_songId">songId</label>
+        <input type="number" id="new_songId" name="new_songId" th:value="*{songId}">
+
+        <label for="new_performerId">performerId</label>
+        <input type="number" id="new_performerId" name="new_performerId" th:value="*{performerId}">
+
+        <button type="submit">Edit Singsong Record</button>
+    </form>
+</div>
+</body>
+</html>

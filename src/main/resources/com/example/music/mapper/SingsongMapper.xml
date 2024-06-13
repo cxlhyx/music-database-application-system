@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.music.mapper.SingsongMapper">
+    <select id="getAll" resultType="com.example.music.entity.Singsong">
+        SELECT song_id AS 'songId', performer_id AS 'performerId'
+        FROM singsong;
+    </select>
+    <select id="get" resultType="com.example.music.entity.Singsong">
+        SELECT song_id AS 'songId', performer_id AS 'performerId'
+        FROM singsong
+        WHERE song_id = #{songId} AND performer_id = #{performerId};
+    </select>
+    <delete id="delete">
+        DELETE FROM singsong
+        WHERE song_id = #{songId} AND performer_id = #{performerId};
+    </delete>
+    <update id="edit">
+        UPDATE singsong
+        SET song_id = #{new_songId}, performer_id = #{new_performerId}
+        WHERE song_id = #{songId} AND performer_id = #{performerId};
+    </update>
+</mapper>

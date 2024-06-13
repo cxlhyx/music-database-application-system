@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Performer Table Viewer</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .table-container {
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 9px #999;
+            margin: 20px 0;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .button:active {
+            background-color: #45a049;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+        .delete-button {
+            background-color: #e74c3c;
+        }
+        .delete-button:hover {
+            background-color: #c0392b;
+        }
+        .edit-button {
+            background-color: #f39c12;
+        }
+        .edit-button:hover {
+            background-color: #e67e22;
+        }
+        .search-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .search-input {
+            padding: 10px;
+            font-size: 16px;
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .search-button, .show-all-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #3498db;
+            border: none;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+        .search-button:hover, .show-all-button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+<div th:insert="~{tableSelect :: content}"></div>
+<div class="container">
+    <h1>Table Performer</h1>
+    <div class="search-container">
+        <form th:action="@{/performer/search}" method="get">
+            <input type="text" name="keyword" class="search-input" placeholder="Enter keyword to search" required>
+            <button type="submit" class="search-button">Search By Primary Key</button>
+            <a href="/performer/index" class="button show-all-button">Show All</a>
+        </form>
+    </div>
+    <div class="table-container">
+        <table>
+            <tbody>
+            <thead>
+            <tr>
+                <th>id</th>
+                <th>companyId</th>
+                <th>action</th>
+            </tr>
+            </thead>
+            <tr th:each="performer : ${performers}">
+                <td th:text="${performer.id}"></td>
+                <td th:text="${performer.companyId}"></td>
+                <td>
+                    <form th:action="@{/performer/delete/{id}(id=${performer.id})}" method="post">
+                        <button type="submit" class="button delete-button">Delete</button>
+                    </form>
+                    <a th:href="@{/performer/edit/{id}(id=${performer.id})}" class="button edit-button">Edit</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <a href="/performer/add" class="button">Add Performer Record</a>
+</div>
+</body>
+</html>

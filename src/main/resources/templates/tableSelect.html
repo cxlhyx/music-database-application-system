@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div class="container" th:fragment="content">
+    <label for="tables">select a table：</label>
+    <select id="tables" name="tables">
+        <option value="album">album</option>
+        <option value="band">band</option>
+        <option value="bandmember">bandmember</option>
+        <option value="company">company</option>
+        <option value="composer">composer</option>
+        <option value="lyricist">lyricist</option>
+        <option value="performer">performer</option>
+        <option value="singer">singer</option>
+        <option value="singsong">singsong</option>
+        <option value="song">song</option>
+    </select>
+    <button onclick="jumpToPage()">enter</button>
+    <script th:src="@{/js/custom.js}"></script>
+</div>
+<h1>music schema ER image</h1>
+<img src="/pic/music-ER-Workbench.png"/>
+</body>
+</html>

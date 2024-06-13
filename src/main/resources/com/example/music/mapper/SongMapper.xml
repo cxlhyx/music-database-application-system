@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.music.mapper.SongMapper">
+    <select id="getAll" resultType="com.example.music.entity.Song">
+        SELECT id, name, style, issue_date As 'issueDate', duration, lyricist_id AS 'lyricistId', composer_id AS 'composerId', album_id AS 'albumId' FROM song;
+    </select>
+    <delete id="delete">
+        DELETE FROM song WHERE id=#{id};
+    </delete>
+</mapper>
